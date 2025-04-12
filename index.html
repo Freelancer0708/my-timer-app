@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>集中タイマー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="drag-region"></div> <!-- ← ドラッグ可能に -->
+  <div class="timer">10:00</div>
+  <div class="buttons">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button> <!-- ← Stop追加 -->
+    <button onclick="resetTimer()">Reset</button>
+    <button onclick="addTenMinutes()">+10min</button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
