@@ -33,6 +33,8 @@ npm install
 npm start
 ```
 
+---
+
 ## 🛠 Windows用 .exe ビルド方法
 ⚠ 必ず「管理者として実行」したターミナルで実行してください！
 
